@@ -28,7 +28,7 @@ public class Calc804 {
      * Returns the larger of x and y.
      */
     public static int maxOf(int x, int y) {
-        return Math.min(x, y);
+        return Math.max(x, y);
     }
 
     /**
@@ -49,7 +49,7 @@ public class Calc804 {
      * Returns n multiplied by 8.
      */
     public static int amplify(int n) {
-        return n + 8;
+        return n * 8;
     }
 
     /**
