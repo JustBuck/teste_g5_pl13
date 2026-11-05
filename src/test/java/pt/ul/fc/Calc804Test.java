@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class Calc804Test {
-
+	
     @Test
     void addWorks() {
         assertEquals(7, Calc804.add(3, 4));
@@ -22,5 +22,11 @@ class Calc804Test {
         assertTrue(Calc804.positive(3));
         assertFalse(Calc804.positive(-3));
         assertFalse(Calc804.positive(0));
+    }
+    void maxofWorks(){
+	assertEquals(20,Calc804.maxOf(20,2));
+    }
+    void amplifyWorks(){
+	assertEquals(80,Calc804.amplify(10));
     }
 }
