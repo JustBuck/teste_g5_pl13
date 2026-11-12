@@ -42,14 +42,14 @@ public class Helpers342 {
      * Returns the absolute value of number.
      */
     public static int absolute(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
      * Returns the area of a rectangle with the given width and height.
      */
     public static int area(int width, int height) {
-        return 2 * (width + height);
+        return (width * height);
     }
 
     /**
