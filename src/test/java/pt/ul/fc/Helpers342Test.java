@@ -23,4 +23,12 @@ class Helpers342Test {
         assertEquals(5 * 6, Helpers342.scale(5));
         assertEquals(0, Helpers342.scale(0));
     }
+    @Test
+    void absoluteWorks(){
+        assertEquals(5, Helpers342.absolute(-5));
+    }
+    @Test
+    void areaWorks(){
+        assertEquals(30, Helpers342.area(6,5));
+    }
 }
